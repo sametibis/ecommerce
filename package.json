@@ -1,0 +1,22 @@
+{
+  "name": "ibishop",
+  "version": "1.0.0",
+  "description": "A practical shopping application developed with MERN.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sametibis/ibishop.git"
+  },
+  "author": "sametibis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sametibis/ibishop/issues"
+  },
+  "homepage": "https://github.com/sametibis/ibishop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
