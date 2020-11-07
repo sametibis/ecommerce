@@ -22,7 +22,7 @@ const ProductDetail = ({ match }) => {
     }
 
     getProduct()
-  }, [])
+  }, [match])
   return (
     <>
       <Link className='btn btn-sm btn-warning my-2' to='/'>

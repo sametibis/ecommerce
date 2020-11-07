@@ -16,7 +16,7 @@ const Homepage = () => {
   }, [])
 
   return (
-    <div>
+    <>
       <h1 style={{ textAlign: 'center' }}>Products</h1>
       <Row>
         {products.map((product) => (
@@ -25,7 +25,7 @@ const Homepage = () => {
           </Col>
         ))}
       </Row>
-    </div>
+    </>
   )
 }
 
